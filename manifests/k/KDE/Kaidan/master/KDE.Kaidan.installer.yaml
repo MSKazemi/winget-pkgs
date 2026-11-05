@@ -6,18 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Kaidan
-ReleaseDate: 2026-11-02
+ReleaseDate: 2026-11-05
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7329-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 545F602EE0E61C0070013E8A3B8982A6B1D5B629D5A2157B86C46A8E02EC7126
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7356-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 368F92397D6BAFF7CE86D3CA27C823845A7EB6FDCA5280DFA42DF4333803985D
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7329-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 545F602EE0E61C0070013E8A3B8982A6B1D5B629D5A2157B86C46A8E02EC7126
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7356-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 368F92397D6BAFF7CE86D3CA27C823845A7EB6FDCA5280DFA42DF4333803985D
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
